@@ -1,0 +1,52 @@
+
+    html, body {
+      /* height: 100%; */
+      margin: 0;
+      padding: 0;
+      
+      
+    }
+    
+    #mapf{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+      border-radius: 50px;
+    }
+
+    
+    
+    .in_put {
+      position: absolute;
+      bottom: 10px;
+      /* left: 0.3px; */
+      z-index: 1;
+      padding: 15px;
+      margin-left: 225px;
+
+    }
+
+    .in_put input {
+      padding: 5px 5px;
+      color: cadetblue;
+
+    }
+
+    .in_put button {
+      margin-top: 5px;
+      padding: 5px 10px;
+      color: cornflowerblue;
+      padding: 2px 2px;
+    }
+#img{
+  background-image: url(./a.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ padding-bottom: 505px;
+ background-size: cover;
+  width: 100%;
+  height: 100%;
+}
